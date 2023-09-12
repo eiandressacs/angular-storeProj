@@ -1,0 +1,21 @@
+.container__card {
+	position: relative; /*para que os outros fiquem na frente dele*/
+	border: 3px solid #3E4357;
+	border-radius: 10px;
+	width: 250px;
+	height: 360px;
+
+	display: flex;
+	overflow: hidden; /*tudo que sair da card, ficara escondido*/
+	margin-top: 10px;
+}
+
+.card__image {
+	min-width: 100%;
+	min-height: 100%;
+	transition: transform 0.8s;
+}
+
+.card__image:hover {
+	transform: scale(1.1);
+}
